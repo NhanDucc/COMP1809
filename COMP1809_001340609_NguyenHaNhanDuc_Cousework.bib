@@ -1,24 +1,35 @@
-\documentclass[a4paper]{article}
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\geometry{a4paper, margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Nguyen Ha Nhan Duc}
+\lhead{GCD220183}
+\rfoot{Page \thepage}
 
+\renewcommand{\maketitle}{
+\begin{center}
+    {\Huge\bfseries The Use of Machine Learning to Improve Data Visualization\par}
+    \vspace{1cm}
+    {\huge\textbf{Nguyen Ha Nhan Duc}\par}
+    \vspace{0.5cm}
+    {\normalsize\textit{UG Scholar, Computing Department, Greenwich University, Da Nang, Vietnam}\par}
+    \vspace{0.5cm}
+    {\normalsize\textit{(Email: ducnhngcd220183@fpt.edu.vn)}\par}
+    \vfill
+    {\large\par}
+\end{center}
+}
 \begin{document}
-    \begin{titlepage}
-        \begin{center}
-            \huge
-            \textbf{The Use of Machine Learning to Improve Data Visualization}\bigskip\\
-            \huge
-            \textbf{Nguyen Ha Nhan Duc}\\
-            \vspace{1cm}
-            \normalsize
-            \textit{UG Scholar, Computing Department, Greenwich University, Da Nang, Vietnam}\bigskip\\
-            \normalsize
-            \textit{(Email: ducnhngcd220183@fpt.edu.vn)}
-        \end{center}
-    \end{titlepage} 
+    \maketitle
     \textbf{Abstract}\medskip\\
     Data visualization is a powerful tool that can be used to improve decision-making, improve communication, and promote innovation. However, creating effective data visualizations can be a challenging task, especially for large and complex datasets.\medskip\\
     Machine learning can be used to improve data visualization in several ways. For example, machine learning algorithms can be used to identify patterns and trends in data that are difficult to see with the naked eye, to recommend the best data visualization techniques for a given dataset, and to create dynamic, interactive visualizations that help users to explore the data explore more deeply.\medskip\\
-    This article discusses the current state of the art in using machine learning to improve data visualization. The article discusses the potential benefits of machine learning for data visualization and identifies some challenges that need to be addressed.\medskip
-    
+    This article discusses the current state of the art in using machine learning to improve data visualization. The article discusses the potential benefits of machine learning for data visualization and identifies some challenges that need to be addressed.\medskip\\
     \textbf{Keywords:} data visualization, machine learning, pattern recognition, recommendation, interactive visualization
     \section{Introduction}
     Data visualization is the process of transforming data into visual representations to communicate insights and information. It is a powerful tool that can be used to enhance decision-making, improve communication, and drive innovation.\medskip\\
